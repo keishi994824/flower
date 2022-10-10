@@ -1,0 +1,564 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+  background: #FFFFFF;
+}
+
+body{
+  color: #3F434A;
+  font-family: "Hiragino Kaku Gothic ProN";;
+  font-size: 0.875rem;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.inner{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  text-decoration: none;
+}
+
+/* HEADER
+------------------------------- */
+#header{
+  background-image: url(img/ヘッダー.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  text-align: center;
+  position: relative;
+}
+
+.title img{
+  width: 223px;
+  height: 165px;
+}
+
+#header .title  {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+/* box
+------------------------------- */
+#box{
+  text-align: center;
+  padding: 60px 25px;
+  margin: 30px 0;
+  background: #FFFFFF;
+}
+
+#box .box-text{
+  margin-bottom: 16px;
+}
+
+#box p{
+  font-weight: bold;
+}
+
+/* content
+------------------------------- */
+#content{
+  background: #F6F5F1;
+}
+
+#content .container{
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+  padding: 64px 24px;
+}
+
+#content h2{
+  padding: 16px 0;
+  line-height: 2;
+}
+
+#content p{
+  line-height: 2;
+  text-align: justify;
+}
+
+#content .app{
+  padding: 36px 0;
+}
+
+#content .app img{
+  width: 150px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+/* section1
+------------------------------- */
+#Section1{
+  background-color: #ECDDD6;
+  background-image: url(img/section1枚目.png);
+  background-size: cover;
+  background-position: left;
+}
+
+#section1 .main1{
+  height: 320px;
+  width: 100%;
+  
+}
+
+#Section1 .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 80px;
+}
+
+#Section1 .title{
+  width: 750px;
+  text-align: justify;
+}
+
+/* section2
+------------------------------- */
+#section2{
+  background-color: #D9D0E3;
+  background-image: url(img/section2枚目.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+ .main2{
+  height: 320px;
+  width: 100%;
+  
+}
+
+#Section2 .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 80px;
+}
+
+#Section2 .title{
+  width: 750px;
+  text-align: justify;
+}
+
+/* section3
+------------------------------- */
+#Section3{
+  background-color: #C9D5DA;
+  background-image: url(img/section3枚目.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#section3 .main3{
+  height: 320px;
+    width: 100%;
+    
+}
+
+#Section3 .container{
+  display: flex;
+  align-items: center;
+  gap: 0 80px;
+  justify-content: space-between;
+}
+
+#Section3 .title{
+  width: 750px;
+  text-align: justify;
+}
+
+/* How to enjoy
+------------------------------- */
+#Howtoenjoy{
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#Howtoenjoy .container{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#Howtoenjoy h3{
+  padding: 15px 0;
+}
+
+#Howtoenjoy p{
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#Howtoenjoy img{
+  width: 150px;
+  height: auto;
+}
+
+#Howtoenjoy .title{
+  width: 200px;
+}
+
+/* ライフスタイル
+------------------------------- */
+#lifestyle{
+  text-align: center;
+  background-color: #F6F5F1;
+}
+
+#lifestyle .title{
+  padding: 60px 0;
+}
+
+#lifestyle .inner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px 24px;
+}
+
+#lifestyle .item img{
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-box{
+  padding: 40px 0;
+}
+
+.btn{
+  margin: 0 auto;
+  border: 2px solid #3F434A;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 1em 2em;
+  width: 327px;
+}
+
+.btn p{
+  color: #3F434A;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* plan
+------------------------------- */
+#plan{
+  background-color: #f2e4e4;
+  padding: 60px 0 20px;
+  text-align: center;
+}
+
+#plan .title{
+  margin-bottom: 60px;
+}
+
+#plan .container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 0 40px;
+}
+
+#plan .subtitle{
+  width: 420px;
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 0 0 24px 24px;
+}
+
+#plan img{
+  height: 280px;
+  border-radius: 24px 24px 0 0;
+}
+
+#plan .text{
+  text-align: justify;
+}
+
+.subtitle h4{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.subtitle .text p{
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.text ul li{
+  margin-bottom: 5px;
+}
+
+.price{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* logo
+------------------------------- */
+#logo{
+  background: #FFFFFF;
+  padding: 20px 0;
+}
+
+#logo .container .list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0 24px;
+  padding: 40px 24px;
+  overflow: scroll;
+}
+
+#logo img{
+  width: auto;
+}
+
+#logo li{
+  list-style: none;
+}
+
+/* question
+------------------------------- */
+#question{
+  background: #F6F5F1;
+  text-align: center;
+  padding: 40px 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#question h2{
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+#question .title h3{
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+}
+
+#question .title p{
+  font-size: 0.98rem;
+  line-height: 1.8;
+  padding-left: 1em;
+}
+
+/* app-bottom
+------------------------------- */
+#app-bottom{
+  background-image: url(img/フッター（チューリップ）.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  position: relative;
+}
+
+.title img{
+  width: 173px;
+  height: 110px;
+  text-align: center;
+  align-items: center;
+}
+
+#app-bottom .text p{
+  padding: 20px 0 10px 0;
+}
+
+#app-bottom .text{
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#app-bottom .app img{
+  width: 150px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+#app-bottom .container  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+/* footer
+------------------------------- */
+#footer{
+  background: #3F434A;
+}
+
+#footer .item{
+  padding: 20px 0;
+}
+
+#footer .sns{
+  padding: 30px 0;
+}
+
+#footer .container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+#footer img{
+  width: 32px;
+  height: 32px;
+}
+
+#footer a{
+  color: #FFFFFF;
+}
+
+#footer .copy p{
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 0.5rem;
+}
+
+/* レススポンシブ
+------------------------------- */
+@media (max-width: 600px) {
+  #content .container{
+    justify-content: center;
+    padding: 0;
+    padding: 30px 0;
+  }
+
+  #content .text{
+    width: 700px;
+  }
+
+  #content .item img{
+    width: 500px;
+  }
+
+  #Section1{
+  height: 450px;
+  width: 100%;
+  background-image: url(img/section1枚目.png);
+  background-size: cover;
+  }
+
+  #Section1 .main1{
+    background: none;
+  }
+
+  #Section1 .container{
+    padding: 40px 0;
+  }
+
+  #Section2{
+    height: 450px;
+    width: 100%;
+    background-image: url(img/section2枚目.png);
+    background-size: cover;
+    background-position: top center;
+    }
+  
+  #Section2 .main2{
+    background: none;
+  }
+
+  #Section2 .container{
+    padding: 40px 0;
+  }
+
+  #Section3{
+    height: 450px;
+    width: 100%;
+    background-image: url(img/section3枚目.png);
+    background-size: cover;
+  }
+    
+  #Section2 .container{
+    padding: 40px 0;
+  }
+
+  #Section3 .main3{
+    background: none;
+  }
+  
+  #Howtoenjoy .title{
+    width: 140px;
+  }
+
+  #plan .container{
+    justify-content: center;
+    padding: 0;
+    gap: 0 40px;
+  }
+
+  #plan .subtitle{
+    width: 280px;
+    height: 400px;
+  }
+
+  #logo .container{
+    padding: 40px 0;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+  }
+
+  #logo img{
+    width: 100%;
+    height: 38px;
+  }
+
+  #question h2{
+    line-height: 2.6;
+  }
+
+  #question .title h3{
+    font-size: 1.3rem;
+  }
+
+  #question .title p{
+    font-size: 1.1rem;
+  }
+
+  #app-bottom .container .app{
+    display: flex;
+    gap: 0 10px;
+  }
+
+  #footer .container{
+    gap: 35px;
+  }
+}
